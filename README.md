@@ -1,5 +1,7 @@
 # Dengue oracle 
 
+Long term dengue forecasting models proposed for the [2025 Sprint: 2nd Infodengue-Mosqlimate Dengue Challenge (IMDC)](https://sprint.mosqlimate.org/).
+
 ## Team and Contributors:
 - Eduardo Correa Araujo (School of Applied Mathematics - (EMAp FGV))
 
