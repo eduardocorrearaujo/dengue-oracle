@@ -65,7 +65,7 @@ if __name__ == '__main__':
         patience= 30
 
         if TEST_YEAR > 2023:     
-            model_path = f'./saved_models/trained_dengue_{region}_{TEST_YEAR-2}_covar.pt'
+            model_path = f'./saved_models/trained_dengue_{region}_{TEST_YEAR-2}_{model_name}.pt'
             model.load_state_dict(torch.load(model_path, map_location=device, weights_only=True))
             model.to(device)  
     

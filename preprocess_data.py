@@ -200,11 +200,14 @@ def gen_forecast_dates(year):
     return dates 
 
 
-def load_cases_data():
+def load_cases_data(filename = None):
     '''
     Function that load the dataset of cases 
     '''
-    df = pd.read_csv('./data/dengue.csv.gz')
+    if filename is None: 
+        df = pd.read_csv('./data/dengue.csv.gz')
+    else: 
+        df = pd.read_csv(filename)
 
     df.date = pd.to_datetime(df.date)
 
