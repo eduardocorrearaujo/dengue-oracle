@@ -24,6 +24,12 @@ Notebooks:
 * `example_notebook.ipynb`: Demonstrates how to train the model and generate predictions for the CE state.
 * `comp_predictions.ipynb`: Generates plots comparing the predictions from the different models proposed.
 
+To be able to run the code, in the root folder, create a .env` file with the following variables:
+
+* api_key`: your Mosqlimate platform API key
+* `DATA_PATH`: the directory where the data downloaded from the IMDC FTP server is stored
+* `THR=0.1` value used if `boxcox=True` during model training
+
 ## Libraries and Dependencies
 The libraries required to train the model are listed in the `environment.yml` file. 
 
